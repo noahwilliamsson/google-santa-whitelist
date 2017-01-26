@@ -6,6 +6,7 @@
 #
 
 # Apple Mac OS Application Signing (e.g. all Apple App Store apps)
+sudo santactl rule --whitelist --certificate --sha256 ad9dba778a3a1204a02298193be3c8d184a6bdc0d10ae109dfaf356722b3cf92
 sudo santactl rule --whitelist --certificate --sha256 61977d6006459c4cefe9b988a453589946224957bfc07b262cd7ca1b7a61e04e
 # Developer ID Application: ARDUINO SA
 #sudo santactl rule --whitelist --certificate --path /Application/Arduino.app
