@@ -73,6 +73,10 @@ sudo santactl rule --whitelist --path /Applications/Wireshark.app/Contents/MacOS
 
 # Stuff that's not code-signed at all
 
+# Cura
+sudo santactl rule --whitelist --path /Applications/Cura/Cura.app/Contents/MacOS/Cura
+sudo santactl rule --whitelist --path /Applications/Cura/Cura.app/Contents/Resources/CuraEngine
+
 # Golang
 sudo santactl rule --whitelist --path /usr/local/go/bin/go
 sudo santactl rule --whitelist --path /usr/local/go/bin/godoc
