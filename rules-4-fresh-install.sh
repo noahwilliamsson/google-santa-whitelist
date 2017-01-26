@@ -10,6 +10,24 @@ sudo santactl rule --whitelist --certificate --sha256 61977d6006459c4cefe9b988a4
 # Developer ID Application: ARDUINO SA
 #sudo santactl rule --whitelist --certificate --path /Application/Arduino.app
 sudo santactl rule --whitelist --certificate --sha256 d17ca1f2c9a463e306299249aa438a4360646bae32555de94b251d48a4329aa1
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/PlugIns/JavaAppletPlugin.plugin/Contents/Home/lib/jspawnhelper
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/arduino-builder
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/libexec/gcc/avr/4.9.2/cc1plus
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/tools-builder/ctags/5.8-arduino11/ctags
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/bin/as
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/libexec/gcc/avr/4.9.2/cc1
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc-ar
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/bin/ar
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/libexec/gcc/avr/4.9.2/collect2
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/bin/ld
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/libexec/gcc/avr/4.9.2/lto-wrapper
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/libexec/gcc/avr/4.9.2/lto1
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-objcopy
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-size
+sudo santactl rule --whitelist --path /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avrdude
+
 # Developer ID Application: Docker Inc (9BNSXJN65R) (e.g. Docker)
 #sudo santactl rule --whitelist --certificate --path /Applications/Docker.app
 sudo santactl rule --whitelist --certificate --sha256 e38f2b2ad07738bb94ec7d59ffb6043193cf91624a49b346b95ea502a074dd0e
