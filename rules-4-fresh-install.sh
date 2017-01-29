@@ -46,6 +46,13 @@ sudo santactl rule --whitelist --path /usr/local/MacGPG2/bin/gpgconf
 # Developer ID Application: Mozilla Corporation (e.g Firefox)
 #sudo santactl rule --whitelist --certificate --path /Applications/Firefox.app
 sudo santactl rule --whitelist --certificate --sha256 b106238716b124b107a761f3adceed90af5d53b738948f400545dcc00232f90a
+# Microsoft Corporation - Developer ID Application: Microsoft Corporation (e.g. Office 2011)
+#sudo santactl rule --whitelist --certificate --path /Applications/Microsoft\ Office\ 2011/Microsoft\ Excel.app
+sudo santactl rule --whitelist --certificate --sha256 bf2b2fb5bbbffb3e73a35072ef78b5bd3da98c68d8ec1a6506c48a07b495f6f1
+# Microsoft Corporation - Developer ID Application: Microsoft Corporation (UBF8T346G9)
+#sudo santactl rule --whitelist --certificate --path /Library/Application\ Support/Microsoft/MAU2.0/Microsoft\ AutoUpdate.app
+sudo santactl rule --whitelist --certificate --sha256 adced5ef3635ab1debda86f02dc55e96cefedf7bd7fe7519f0a806092bf75873
+
 # Developer ID Application: Node.js Foundation (HX7739G8FX) (e.g. Node.js)
 #sudo santactl rule --whitelist --certificate --path /usr/local/bin/node
 sudo santactl rule --whitelist --certificate --sha256 8c9f24f9e0c18e3a0d467ca8e1388a84a838adefd1994b56f031fa1f47a80c0e
